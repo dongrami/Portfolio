@@ -4,10 +4,10 @@ function aboutOver() {
         "bottom": "160%"
     }, 500);
     $(".hat-cont .gear1").stop().animate({
-        "top": "-5%"
+        "top": "0"
     });
     $(".hat-cont .gear2").stop().animate({
-        "top": "-100%"
+        "top": "-98%"
     }, 500);
     $(".hat-cont .gear3").stop().animate({
         "bottom": "55%"
@@ -72,7 +72,7 @@ $(".design").hover(function () {
 
 
 $(".web").hover(function () {
-    $(".arm_bot02").removeClass("arm_ani_back").addClass("arm_ani");
+    $(".arm_bot02").stop().removeClass("arm_ani_back").addClass("arm_ani");
 },
-function(){ $(".arm_bot02").removeClass("arm_ani").addClass("arm_ani_back")
+function(){ $(".arm_bot02").stop().removeClass("arm_ani").addClass("arm_ani_back")
 });
