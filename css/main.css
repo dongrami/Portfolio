@@ -20,13 +20,13 @@ body{background-color:#8ce0cd;}
    
 
 
-    .ear-left{width:3.5rem; height:7.5rem;background:rgb(106,76,110); top:32%;  left:-13%;}
+    .ear-left{width:3.5rem; height:7.5rem;background:rgb(106,76,110); top:32%;  left:-13%; z-index: 1111;}
 
     .design{bottom:10%; left:-48%;}
 
-    .ear-right{width:3.5rem; height:7.5rem; background:rgb(106,76,110); top:32%;  right:-13%;}
-    .ear-1-left{width:0.6rem; height:4.8rem; background-color:rgb(65,42,28); top:38%;  left:-15%;}
-    .ear-1-right{width:0.6rem; height:4.8rem; background-color:rgb(65,42,28); top:38%; right:-15%;}
+    .ear-right{width:3.5rem; height:7.5rem; background:rgb(106,76,110); top:32%;  right:-13%; z-index: 1111;}
+    .ear-1-left{width:0.6rem; height:4.8rem; background-color:rgb(65,42,28); top:38%;  left:-15%; z-index: 1111;}
+    .ear-1-right{width:0.6rem; height:4.8rem; background-color:rgb(65,42,28); top:38%; right:-15%;  z-index: 1111;}
    /*눈*/
     .eye-1{width:6.3rem; height:6.3rem; border-radius:180px; background:#aaa;top:24%;left:18%; border:0.5rem solid rgb(65,42,28);}
     .eye-2{width:6.3rem; height:6.3rem; border-radius:180px; background:#aaa; top:24%; right:18%; border:0.5rem solid rgb(65,42,28);}   
@@ -98,12 +98,14 @@ body{background-color:#8ce0cd;}
     .gears{height:6.5rem;width:12rem;  left:50%;transform: translateX(-50%); bottom:100%;}
     .hat-cont .gear1{left:50%;transform: translateX(-50%);top:2%;}
     .hat-cont .gear2{left:50%;transform: translateX(-50%);top:2%;}
-    .hat-cont .gear3{left:30%;bottom:1%;}
+    .hat-cont .gear3{left:27%;bottom:1%;}
     .hat-cont .gear4{left:45%;top:5%;}
 
-    .ear-gears-L{top:32%;  left:-13%;}
-    .ear-gears-R{top:32%;  right:-13%;}
-
+    .ear-gears-L{top:32%;  left:-52%; z-index: 111; overflow:hidden; width:14.5rem; height:7.5rem;}
+    .ear-gears-R{top:32%;  right:-51%; z-index: 111; overflow:hidden; width:14.5rem;
+        height:7.5rem}
+    .ear-gear1{top:0; left:100%;}
+    .ear-gear2{top:0; right:100%;}
 
 
    .arm_ani{animation-name:armAni; transform-origin:top right;
