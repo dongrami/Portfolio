@@ -16,58 +16,58 @@ body{background-color:#8ce0cd;}
 .logo{width:13rem; top:5%; left:10%;}
 /* head */
 
-.head{width:29rem; height:21.5rem;  background:rgb(251,70,121); margin:0 auto 0; box-sizing:border-box; border-bottom:0.625rem solid rgb(225,29,72); border-radius: 10px;
+.head{width:29rem; height:21.5rem;  background:rgb(251,70,121); margin:0 auto 0; box-sizing:border-box; border-bottom:0.625em solid rgb(225,29,72); border-radius: 10px;
  z-index:11111;}
-    .hat{width:14rem; height:6.5rem; border-top-left-radius:300px; border-top-right-radius:300px; background:rgb(92, 80, 81); margin:0 auto; bottom:100%; left:50%;transform: translateX(-50%);z-index:1111; }
+    .hat{width:14em; height:6.5em; border-top-left-radius:300px; border-top-right-radius:300px; background:rgb(92, 80, 81); margin:0 auto; bottom:100%; left:50%;transform: translateX(-50%);z-index:1111; }
 
     .about{top:-20%; right:-25%;}
    
 
 
-    .ear-left{width:3.5rem; height:7.5rem;background:rgb(106,76,110); top:32%;  left:-13%; z-index: 1111;}
+    .ear-left{width:3.5em; height:7.5em;background:rgb(106,76,110); top:32%;  left:-13%; z-index: 1111;}
 
     .design{bottom:10%; left:-48%;}
 
-    .ear-right{width:3.5rem; height:7.5rem; background:rgb(106,76,110); top:32%;  right:-13%; z-index: 1111;}
-    .ear-1-left{width:0.6rem; height:4.8rem; background-color:rgb(65,42,28); top:38%;  left:-15%; z-index: 1111;}
-    .ear-1-right{width:0.6rem; height:4.8rem; background-color:rgb(65,42,28); top:38%; right:-15%;  z-index: 1111;}
+    .ear-right{width:3.5em; height:7.5em; background:rgb(106,76,110); top:32%;  right:-13%; z-index: 1111;}
+    .ear-1-left{width:0.6em; height:4.8em; background-color:rgb(65,42,28); top:38%;  left:-15%; z-index: 1111;}
+    .ear-1-right{width:0.6em; height:4.8em; background-color:rgb(65,42,28); top:38%; right:-15%;  z-index: 1111;}
    /*눈*/
-    .eye-1{width:6.3rem; height:6.3rem; border-radius:180px; background:#aaa;top:24%;left:18%; border:0.5rem solid rgb(65,42,28);}
-    .eye-2{width:6.3rem; height:6.3rem; border-radius:180px; background:#aaa; top:24%; right:18%; border:0.5rem solid rgb(65,42,28);}   
-     .eye-a{width:4rem; height:4rem; border-radius:90px; background:#222;margin:12.5% auto; } 
+    .eye-1{width:6.3em; height:6.3em; border-radius:180px; background:#aaa;top:24%;left:18%; border:0.5em solid rgb(65,42,28);}
+    .eye-2{width:6.3em; height:6.3em; border-radius:180px; background:#aaa; top:24%; right:18%; border:0.5em solid rgb(65,42,28);}   
+     .eye-a{width:4em; height:4em; border-radius:90px; background:#222;margin:12.5% auto; } 
 
    
     
-     .eye-point{background:#fff; width:0.8rem; height:0.8rem; border-radius: 50px;}
-    .mouse{width:18rem; height:4rem; bottom:14%; left:50%; transform: translateX(-50%); padding:0.6rem; background-color: rgb(97, 52, 46);  border-bottom:2px solid rgb(53, 51, 51);border-right:1px solid rgb(53, 51, 51);}
-    .mouse li{ margin-left:0.26rem; width:1.44rem; height:100%; float:left; background:rgb(255, 255, 255);}
+     .eye-point{background:#fff; width:0.8em; height:0.8em; border-radius: 50px;}
+    .mouse{width:18em; height:4em; bottom:14%; left:50%; transform: translateX(-50%); padding:0.6em; background-color: rgb(97, 52, 46);  border-bottom:2px solid rgb(53, 51, 51);border-right:1px solid rgb(53, 51, 51);}
+    .mouse li{ margin-left:0.26em; width:1.44em; height:100%; float:left; background:rgb(255, 255, 255);}
     .mouse li:first-child{margin-left:0; } 
-    
-    .neck{width:10rem; height:2rem;background-color:rgb(106,76,110);margin:0.3rem auto 0;}
+    /***목***/
+    .neck{width:10rem; height:2rem;background-color:rgb(106,76,110);margin:0.3em auto 0;}
 
 
     /*body*/
-    .b1{width:29rem; height:28.5rem; background-color:rgb(251,70,121);  border-radius:10px; border-bottom:0.3rem solid rgb(225,29,72); margin: 0 auto;}
+    .b1{width:29rem; height:28.5rem; background-color:rgb(251,70,121);  border-radius:10px; border-bottom:0.3em solid rgb(225,29,72); margin: 0 auto;}
 
     /*팔*/
-    .arm01{width:5.8rem; height:14rem; background:rgb(251,70,121); left:-26%;border-radius:10px; border-top-left-radius:20px;  border-bottom:0.625rem solid rgb(225,29,72);}
-    .arm02{width:5.8rem; height:14rem; background:rgb(251,70,121); right:-26%;; border-radius:5px; border-top-right-radius:20px; border-bottom:0.625rem solid rgb(225,29,72);}
+    .arm01{width:5.8em; height:14em; background:rgb(251,70,121); left:-26%;border-radius:10px; border-top-left-radius:20px;  border-bottom:0.625em solid rgb(225,29,72);}
+    .arm02{width:5.8em; height:14em; background:rgb(251,70,121); right:-26%;; border-radius:5px; border-top-right-radius:20px; border-bottom:0.625em solid rgb(225,29,72);}
 
     .web{top:-15%; right:-50%; }
 
-    .elbow01{width:5.8rem; height:0.8rem;  left:-26%; bottom:46%; }
-    .elbow02{width:5.8rem; height:0.8rem;  right:-26%; bottom:46%; }
-    .elbow01 li:first-child, .elbow01 li:last-child, .elbow02 li:first-child, .elbow02 li:last-child{width:0.7rem; height:0.8rem; background-color:#333; float:left;}
-    .elbow01 li:nth-child(2), .elbow02 li:nth-child(2){width:4.2rem; height:0.8rem; background-color:#555; margin:0 0.1rem; float:left;}
-    .arm_bot01{width:5.8rem; height:14rem; background:rgb(251,70,121); left:-26%; top:55%; border-radius:10px;  border-bottom:0.625rem solid rgb(225,29,72);}
-    .arm_bot02{width:5.8rem; height:14rem; background:rgb(251,70,121); right:-26%; top:55%; border-radius:10px;  border-bottom:0.625rem solid rgb(225,29,72); z-index: 1111;}
-    .link01{width:1.5rem; height:4.5rem; background:rgb(106,76,110);top:2%; left:-6%;}
-    .link02{width:1.5rem; height:4.5rem; background:rgb(106,76,110);top:2%; right:-6%;}
-    .hand-neck01{width:4.5rem; height:1.5rem; background-color:rgb(106,76,110); left:50%;transform: translateX(-50%); top:105%;}
-    .hand-neck02{width:4.5rem; height:1.5rem; background-color:rgb(106,76,110); left:50%;transform: translateX(-50%); top:105%;}
-    .hand01{width:5.8rem; height:3rem; border-top-left-radius:80px; border-top-right-radius:80px; background-color:rgb(65,42,28); left:50%;transform: translateX(-50%);top:120%;}
-    .hand02{width:5.8rem; height:3rem; border-top-left-radius:80px; border-top-right-radius:80px; background-color:rgb(65,42,28);left:50%;transform: translateX(-50%); top:118%;}
-    .hand-blank{width:2.9rem; height:2.9rem;border-top-left-radius:40px; border-top-right-radius:40px; background-color:#8ce0cd;margin:25% auto;}
+    .elbow01{width:5.8em; height:0.8em;  left:-26%; bottom:46%; }
+    .elbow02{width:5.8em; height:0.8em;  right:-26%; bottom:46%; }
+    .elbow01 li:first-child, .elbow01 li:last-child, .elbow02 li:first-child, .elbow02 li:last-child{width:0.7em; height:0.8em; background-color:#333; float:left;}
+    .elbow01 li:nth-child(2), .elbow02 li:nth-child(2){width:4.2em; height:0.8em; background-color:#555; margin:0 0.1em; float:left;}
+    .arm_bot01{width:5.8em; height:14em; background:rgb(251,70,121); left:-26%; top:55%; border-radius:10px;  border-bottom:0.625em solid rgb(225,29,72);}
+    .arm_bot02{width:5.8em; height:14em; background:rgb(251,70,121); right:-26%; top:55%; border-radius:10px;  border-bottom:0.625em solid rgb(225,29,72); z-index: 1111;}
+    .link01{width:1.5em; height:4.5em; background:rgb(106,76,110);top:2%; left:-6%;}
+    .link02{width:1.5em; height:4.5em; background:rgb(106,76,110);top:2%; right:-6%;}
+    .hand-neck01{width:4.5em; height:1.5em; background-color:rgb(106,76,110); left:50%;transform: translateX(-50%); top:105%;}
+    .hand-neck02{width:4.5em; height:1.5em; background-color:rgb(106,76,110); left:50%;transform: translateX(-50%); top:105%;}
+    .hand01{width:5.8em; height:3em; border-top-left-radius:80px; border-top-right-radius:80px; background-color:rgb(65,42,28); left:50%;transform: translateX(-50%);top:120%;}
+    .hand02{width:5.8em; height:3em; border-top-left-radius:80px; border-top-right-radius:80px; background-color:rgb(65,42,28);left:50%;transform: translateX(-50%); top:118%;}
+    .hand-blank{width:2.9em; height:2.9em;border-top-left-radius:40px; border-top-right-radius:40px; background-color:#8ce0cd;margin:25% auto;}
 
     /*가슴*/
     .little-btn{width:50%; height:50%; right:-95%; top:10%;}
@@ -76,23 +76,23 @@ body{background-color:#8ce0cd;}
     .lit-btn:nth-child(2){top:28%;}
     .lit-btn:nth-child(3){top:42%;}
     .part1{width:70%; height:35%; border:1px solid rgb(228, 110, 155); top:5%;  left:50%;  transform: translateX(-50%);}
-    .chest{width:90%;height:90%;background-color:rgb(118, 128, 136); border-bottom:0.3rem solid rgb(70, 70, 70); border-right:0.3rem solid rgb(68, 68, 68); left:50%;  transform: translateX(-50%); top:5%;  border-top:0.2rem solid rgb(210,214,249);border-left:0.2rem solid rgb(200,204,239);}
-    .btn{width:1.5rem; height:0.8rem;  }
-    .bar3{background-color: rgb(148,55,146); top:10%; left:-50%;transform: translateX(-50%); border:0.2rem solid rgb(65,42,28);} 
-    .bar2{background-color:rgb(215,232,30); top:80%; left:-50%; transform: translateX(-50%);border:0.2rem solid rgb(65,42,28);} 
-    .bar1{background-color:#00d5fb; top:40%; left:50%;transform: translateX(-50%); border:0.2rem solid rgb(65,42,28);}
+    .chest{width:90%;height:90%;background-color:rgb(118, 128, 136); border-bottom:0.3em solid rgb(70, 70, 70); border-right:0.3em solid rgb(68, 68, 68); left:50%;  transform: translateX(-50%); top:5%;  border-top:0.2em solid rgb(210,214,249);border-left:0.2em solid rgb(200,204,239);}
+    .btn{width:1.5em; height:0.8em;  }
+    .bar3{background-color: rgb(148,55,146); top:10%; left:-50%;transform: translateX(-50%); border:0.2em solid rgb(65,42,28);} 
+    .bar2{background-color:rgb(215,232,30); top:80%; left:-50%; transform: translateX(-50%);border:0.2em solid rgb(65,42,28);} 
+    .bar1{background-color:#00d5fb; top:40%; left:50%;transform: translateX(-50%); border:0.2em solid rgb(65,42,28);}
     
     .button-rec{ width:30%; height:80%; overflow:hidden; float:left; margin:5%;}
-    .button-rec li{ width:100%; height:25%; background-color:#ffd800; border-top:0.3rem solid rgb(70, 70, 70); border-left:0.2rem solid rgb(71, 71, 71); border-bottom:0.2rem solid rgb(200,204,239);border-right:0.2rem solid rgb(200,204,239);}
+    .button-rec li{ width:100%; height:25%; background-color:#ffd800; border-top:0.3em solid rgb(70, 70, 70); border-left:0.2em solid rgb(71, 71, 71); border-bottom:0.2em solid rgb(200,204,239);border-right:0.2em solid rgb(200,204,239);}
     .button-rec li:first-child{background-color:rgb(199, 73, 0);}
     .button-line{ width:40%; height:60%; overflow:hidden; float:right; margin:10% 9% 5%;}
-    .button-line li{float: left; margin-left:10%; height:100%; border-top:0.3rem solid rgb(63, 63, 63); border-left:0.2rem solid rgb(59, 59, 59); border-bottom:0.2rem solid rgb(200,204,239);border-right:0.2rem solid rgb(200,204,239);}
+    .button-line li{float: left; margin-left:10%; height:100%; border-top:0.3em solid rgb(63, 63, 63); border-left:0.2em solid rgb(59, 59, 59); border-bottom:0.2em solid rgb(200,204,239);border-right:0.2em solid rgb(200,204,239);}
     .part2{width:44%; height:35%; border:1px solid rgb(228, 110, 155); top:45%;  left:15%; }
     .part3{width:24%; height:35%; border:1px solid rgb(228, 110, 155); top:45%; right:15%; }
-    .part2-1{width:90%; height:90%; border-bottom:0.3rem solid rgb(250,30,80);margin:5% auto; border-right:0.2rem solid rgb(250,30,70); background-color:rgb(255,90,131);
-        border-top:0.1rem solid rgb(250,180,200); border-left:0.1rem solid rgb(250,180,200);}
-    .part2-1 p{font-weight: bold; color:#fff;font-size:1.4rem; padding-top:10%; text-align: center; line-height:2rem; }
-    .part3-1{width:90%; height:90%; border-top:0.3rem solid rgb(250,20,80);margin:5% auto; border-left:0.2rem solid rgb(250,30,80); background-color:rgb(255,90,131);border-bottom:0.1rem solid rgb(250,180,200); border-right:0.1rem solid rgb(250,180,200);}
+    .part2-1{width:90%; height:90%; border-bottom:0.3em solid rgb(250,30,80);margin:5% auto; border-right:0.2em solid rgb(250,30,70); background-color:rgb(255,90,131);
+        border-top:0.1em solid rgb(250,180,200); border-left:0.1em solid rgb(250,180,200);}
+    .part2-1 p{font-weight: bold; color:#fff;font-size:1.4em; padding-top:10%; text-align: center; line-height:2em; }
+    .part3-1{width:90%; height:90%; border-top:0.3em solid rgb(250,20,80);margin:5% auto; border-left:0.2em solid rgb(250,30,80); background-color:rgb(255,90,131);border-bottom:0.1em solid rgb(250,180,200); border-right:0.1em solid rgb(250,180,200);}
     .screw1{width:10%; height:7%; top:5%; left:5%; background-color: #888; border-radius: 50px; border-right:1px solid#333; border-left:1px solid#fff;}
     .screw2{width:10%; height:7%; top:5%; right:5%; background-color: #888; border-radius: 50px;  border-right:1px solid#333;border-left:1px solid#fff; }
     .screw3{width:10%; height:7%; bottom:5%; left:5%; background-color: #888; border-radius: 50px;  border-right:1px solid#333; border-left:1px solid#fff;}
@@ -101,15 +101,15 @@ body{background-color:#8ce0cd;}
 
     /*기어*/
     .hat-cont{display:none; z-index:111;}
-    .gears{height:6.5rem;width:12rem;  left:50%;transform: translateX(-50%); bottom:100%;}
+    .gears{height:6.5em;width:12em;  left:50%;transform: translateX(-50%); bottom:100%;}
     .hat-cont .gear1{left:50%;transform: translateX(-50%);top:2%;}
     .hat-cont .gear2{left:50%;transform: translateX(-50%);top:2%;}
     .hat-cont .gear3{left:27%;bottom:1%;}
     .hat-cont .gear4{left:45%;top:5%;}
 
-    .ear-gears-L{top:32%;  left:-52%; z-index: 111; overflow:hidden; width:14.5rem; height:7.5rem;}
-    .ear-gears-R{top:32%;  right:-51%; z-index: 111; overflow:hidden; width:14.5rem;
-        height:7.5rem}
+    .ear-gears-L{top:32%;  left:-52%; z-index: 111; overflow:hidden; width:14.5em; height:7.5em;}
+    .ear-gears-R{top:32%;  right:-51%; z-index: 111; overflow:hidden; width:14.5em;
+        height:7.5em}
     .ear-gear1{top:0; left:100%;}
     .ear-gear2{top:0; right:100%;}
 
@@ -117,13 +117,24 @@ body{background-color:#8ce0cd;}
     .elbow-gear{top:56%; right:-24%; z-index: 11;}
 
         /*컨텐츠*/
-        .content01{width:40rem; top:-20%; left:115%; display:none;}
+        .content01{width:40em; top:-20%; left:115%; display:none;}
         .content01 li{float:left;}
-        .content01 li:first-child{background-color:#fff; color:#333; padding:1rem; line-height:2rem;}
+        .content01 li:first-child{background-color:#fff; color:#333; padding:1em; line-height:2em;}
         .content01 li:first-child div{float:left; width:48%; padding:0 1%; height:100%;}
-        .content01 li:first-child .me{background-color:#ffb800; color:#000; font-size: 5rem;text-align: center; line-height: 11rem;}
-        .content01 li:last-child{background-color:#ff0000; color:#fff; padding:0.5rem 1rem; cursor: pointer;}
-        .content01 .button{background-color:#aaa; padding:0.3rem 1rem; float:right;  font-size: 1rem; margin-top:1rem;}
+        .content01 li:first-child .me{background-color:#ffb800; color:#000; font-size: 5em;text-align: center; line-height:2.3em}
+        .content01 li:last-child{background-color:rgb(225,29,72);; color:#fff; padding:0.5em 1em; cursor: pointer;}
+        .button{background-color:#aaa; padding:0.3em 1em; float:right;  font-size: 1em; margin-top:1em;}
+
+
+        .content02{width:40em; top:120%; left:-55%; display:none;}
+        .content02 li{float:left;}
+        .content02 li:first-child{background-color:#fff; color:#333; padding:1em; line-height:2em;}
+        .content02 li:last-child{background-color:rgb(225,29,72);; color:#fff; padding:0.5em 1em; cursor: pointer;}
+
+        .content03{top:100%; right:-90%; display:none;}
+        .content03 li{float:left;}
+        .content03 li:first-child{background-color:#fff; color:#333; padding:1em; line-height:2em;}
+        .content03 li:last-child{background-color:rgb(225,29,72);; color:#fff; padding:0.5em 1em; cursor: pointer;}
 
 
 
@@ -156,7 +167,14 @@ body{background-color:#8ce0cd;}
     100%{transform:rotate(800deg);}
 }
 
-@media screen and (max-width:1200px){.robot{width:80%; margin:0 auto;}}
-@media screen and (max-width:992px) {}
-@media screen and (max-width:768px) {}
-@media screen and (max-width:480px) {}
+ @media screen and (max-width:1200px){
+}
+@media screen and (max-width:992px) {
+
+}
+@media screen and (max-width:768px) {
+
+}
+@media screen and (max-width:480px) {
+    
+}
