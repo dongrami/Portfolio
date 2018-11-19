@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
 .ab{position: absolute;}
 .re{position: relative;}
-.font1{font-family: 'Indie Flower', cursive; color:#fff; font-size: 2.5rem; cursor: pointer; }
+.font1{font-family: 'Indie Flower', cursive; color:#fff; font-size: 2.5rem; }
+.font2{font-family: 'Open Sans', sans-serif;  font-size:1.2rem;}
 body{background-color:#8ce0cd;}
 
 .bg{width:100%; height:100%;background-image: url("../images/guide-line.png"); background-size: cover;}
@@ -56,7 +60,7 @@ body{background-color:#8ce0cd;}
     .elbow01 li:first-child, .elbow01 li:last-child, .elbow02 li:first-child, .elbow02 li:last-child{width:0.7rem; height:0.8rem; background-color:#333; float:left;}
     .elbow01 li:nth-child(2), .elbow02 li:nth-child(2){width:4.2rem; height:0.8rem; background-color:#555; margin:0 0.1rem; float:left;}
     .arm_bot01{width:5.8rem; height:14rem; background:rgb(251,70,121); left:-26%; top:55%; border-radius:10px;  border-bottom:0.625rem solid rgb(225,29,72);}
-    .arm_bot02{width:5.8rem; height:14rem; background:rgb(251,70,121); right:-26%; top:55%; border-radius:10px;  border-bottom:0.625rem solid rgb(225,29,72);}
+    .arm_bot02{width:5.8rem; height:14rem; background:rgb(251,70,121); right:-26%; top:55%; border-radius:10px;  border-bottom:0.625rem solid rgb(225,29,72); z-index: 1111;}
     .link01{width:1.5rem; height:4.5rem; background:rgb(106,76,110);top:2%; left:-6%;}
     .link02{width:1.5rem; height:4.5rem; background:rgb(106,76,110);top:2%; right:-6%;}
     .hand-neck01{width:4.5rem; height:1.5rem; background-color:rgb(106,76,110); left:50%;transform: translateX(-50%); top:105%;}
@@ -94,6 +98,8 @@ body{background-color:#8ce0cd;}
     .screw3{width:10%; height:7%; bottom:5%; left:5%; background-color: #888; border-radius: 50px;  border-right:1px solid#333; border-left:1px solid#fff;}
     .screw4{width:10%; height:7%; bottom:5%; right:5%; background-color: #888; border-radius: 50px;  border-right:1px solid#333; border-left:1px solid#fff;}
     
+
+    /*기어*/
     .hat-cont{display:none; z-index:111;}
     .gears{height:6.5rem;width:12rem;  left:50%;transform: translateX(-50%); bottom:100%;}
     .hat-cont .gear1{left:50%;transform: translateX(-50%);top:2%;}
@@ -107,17 +113,50 @@ body{background-color:#8ce0cd;}
     .ear-gear1{top:0; left:100%;}
     .ear-gear2{top:0; right:100%;}
 
+    .elbow-gears, .elbow-move{top:56%; right:-24%; z-index: 111;}
+    .elbow-gear{top:56%; right:-24%; z-index: 11;}
+
+        /*컨텐츠*/
+        .content01{width:40rem; top:-20%; left:115%; display:none;}
+        .content01 li{float:left;}
+        .content01 li:first-child{background-color:#fff; color:#333; padding:1rem; line-height:2rem;}
+        .content01 li:first-child div{float:left; width:48%; padding:0 1%; height:100%;}
+        .content01 li:first-child .me{background-color:#ffb800; color:#000; font-size: 5rem;text-align: center; line-height: 11rem;}
+        .content01 li:last-child{background-color:#ff0000; color:#fff; padding:0.5rem 1rem; cursor: pointer;}
+        .content01 .button{background-color:#aaa; padding:0.3rem 1rem; float:right;  font-size: 1rem; margin-top:1rem;}
+
+
+
 
    .arm_ani{animation-name:armAni; transform-origin:top right;
-animation-direction: normal; animation-fill-mode: forwards; animation-duration:1s;}
+    animation-direction: normal; animation-fill-mode: forwards; animation-duration:1s;}
    .arm_ani_back{animation-name:armAniback; transform-origin:top right;
-animation-direction: normal; animation-fill-mode: forwards; animation-duration:1s;}
+    animation-direction: normal; animation-fill-mode: forwards; animation-duration:1s;}
+    .elbow_ani{animation-name:elbowAni; animation-direction: normal; animation-fill-mode: forwards; animation-duration:1.8s;}
+    .elbow_ani_back{animation-name:elbowAniback; animation-direction: normal; animation-fill-mode: forwards; animation-duration:1s;}
+    .hat_ani{animation-name:hatAni; animation-direction: normal; animation-fill-mode: forwards; animation-duration:7s;}
 @keyframes armAni{
     0%{transform:rotate(0deg);}
     100%{transform:rotate(-90deg);}
 }
 @keyframes armAniback{
-    0%{transform:rotate(-90deg);}
+        0%{transform:rotate(-90deg);}
+        100%{transform:rotate(0deg);}
+}
+@keyframes elbowAni{
+    0%{transform:rotate(0deg);}
+    100%{transform:rotate(-200deg);}
+}
+@keyframes elbowAniback{
+    0%{transform:rotate(-200deg);}
     100%{transform:rotate(0deg);}
 }
+@keyframes hatAni{
+    0%{transform:rotate(0deg);}
+    100%{transform:rotate(800deg);}
+}
 
+@media screen and (max-width:1200px){.robot{width:80%; margin:0 auto;}}
+@media screen and (max-width:992px) {}
+@media screen and (max-width:768px) {}
+@media screen and (max-width:480px) {}
