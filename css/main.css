@@ -7,13 +7,20 @@
 .font2{font-family: 'Open Sans', sans-serif;  font-size:1.2rem;}
 body{background-color:#8ce0cd;}
 
+
+
+
 .bg{width:100%; height:100%;background-image: url("../images/guide-line.png"); background-size: cover;}
 .robot{width:100%; padding-top:15%; height:100%; overflow:hidden; }
 
 
 
-
 .logo{width:13rem; top:5%; left:10%;}
+.palettes{top:15%; left:11%;}
+.palette{float:left; width:3rem; height:3rem; border-radius: 50px; margin-right:2rem; border:0.3rem solid#fff; cursor: pointer;}
+.p-red{background-color:rgb(251,70,121);}
+.p-yellow{background-color:#ff8b00}
+.p-blue{background-color:#5570bb;}
 /* head */
 
 .head{width:29rem; height:21.5rem;  background:rgb(251,70,121); margin:0 auto 0; box-sizing:border-box; border-bottom:0.625em solid rgb(225,29,72); border-radius: 10px;
@@ -32,15 +39,15 @@ body{background-color:#8ce0cd;}
     .ear-1-left{width:0.6em; height:4.8em; background-color:rgb(65,42,28); top:38%;  left:-15%; z-index: 1111;}
     .ear-1-right{width:0.6em; height:4.8em; background-color:rgb(65,42,28); top:38%; right:-15%;  z-index: 1111;}
    /*눈*/
-    .eye-1{width:6.3em; height:6.3em; border-radius:180px; background:#aaa;top:24%;left:18%; border:0.5em solid rgb(65,42,28);}
-    .eye-2{width:6.3em; height:6.3em; border-radius:180px; background:#aaa; top:24%; right:18%; border:0.5em solid rgb(65,42,28);}   
+    .eye-1{width:6.3em; height:6.3em; border-radius:180px; background:#d1d1d1;top:24%;left:18%; border:0.5em solid rgb(65,42,28);}
+    .eye-2{width:6.3em; height:6.3em; border-radius:180px; background:#d1d1d1; top:24%; right:18%; border:0.5em solid rgb(65,42,28);}   
      .eye-a{width:4em; height:4em; border-radius:90px; background:#222;margin:12.5% auto; } 
 
    
     
      .eye-point{background:#fff; width:0.8em; height:0.8em; border-radius: 50px;}
     .mouse{width:18em; height:4em; bottom:14%; left:50%; transform: translateX(-50%); padding:0.6em; background-color: rgb(97, 52, 46);  border-bottom:2px solid rgb(53, 51, 51);border-right:1px solid rgb(53, 51, 51);}
-    .mouse li{ margin-left:0.26em; width:1.44em; height:100%; float:left; background:rgb(255, 255, 255);}
+    .mouse li{ margin-left:0.26em; width:1.43em; height:100%; float:left; background:rgb(255, 255, 255);}
     .mouse li:first-child{margin-left:0; } 
     /***목***/
     .neck{width:10rem; height:2rem;background-color:rgb(106,76,110);margin:0.3em auto 0;}
@@ -84,14 +91,14 @@ body{background-color:#8ce0cd;}
     
     .button-rec{ width:30%; height:80%; overflow:hidden; float:left; margin:5%;}
     .button-rec li{ width:100%; height:25%; background-color:#ffd800; border-top:0.3em solid rgb(70, 70, 70); border-left:0.2em solid rgb(71, 71, 71); border-bottom:0.2em solid rgb(200,204,239);border-right:0.2em solid rgb(200,204,239);}
-    .button-rec li:first-child{background-color:rgb(199, 73, 0);}
+    .button-rec li:first-child{background-color: rgb(225,29,72);}
     .button-line{ width:40%; height:60%; overflow:hidden; float:right; margin:10% 9% 5%;}
     .button-line li{float: left; margin-left:10%; height:100%; border-top:0.3em solid rgb(63, 63, 63); border-left:0.2em solid rgb(59, 59, 59); border-bottom:0.2em solid rgb(200,204,239);border-right:0.2em solid rgb(200,204,239);}
     .part2{width:44%; height:35%; border:1px solid rgb(228, 110, 155); top:45%;  left:15%; }
     .part3{width:24%; height:35%; border:1px solid rgb(228, 110, 155); top:45%; right:15%; }
     .part2-1{width:90%; height:90%; border-bottom:0.3em solid rgb(250,30,80);margin:5% auto; border-right:0.2em solid rgb(250,30,70); background-color:rgb(255,90,131);
         border-top:0.1em solid rgb(250,180,200); border-left:0.1em solid rgb(250,180,200);}
-    .part2-1 p{font-weight: bold; color:#fff;font-size:1.4em; padding-top:10%; text-align: center; line-height:2em; }
+    .part2-1 p{font-weight: bold; color:#fff;font-size:1.4em; text-align: center; line-height:2em; }
     .part3-1{width:90%; height:90%; border-top:0.3em solid rgb(250,20,80);margin:5% auto; border-left:0.2em solid rgb(250,30,80); background-color:rgb(255,90,131);border-bottom:0.1em solid rgb(250,180,200); border-right:0.1em solid rgb(250,180,200);}
     .screw1{width:10%; height:7%; top:5%; left:5%; background-color: #888; border-radius: 50px; border-right:1px solid#333; border-left:1px solid#fff;}
     .screw2{width:10%; height:7%; top:5%; right:5%; background-color: #888; border-radius: 50px;  border-right:1px solid#333;border-left:1px solid#fff; }
@@ -134,18 +141,37 @@ body{background-color:#8ce0cd;}
         .content03{top:100%; right:-90%; display:none;}
         .content03 li{float:left;}
         .content03 li:first-child{background-color:#fff; color:#333; padding:1em; line-height:2em;}
-        .content03 li:last-child{background-color:rgb(225,29,72);; color:#fff; padding:0.5em 1em; cursor: pointer;}
+        .content03 li:last-child{background-color:rgb(225,29,72); color:#fff; padding:0.5em 1em; cursor: pointer;}
 
 
+/***** color*****/
+.B-bg-color{background-color:#e1e1e1;}
+.B-main-color{background-color:#8c92a2; border-bottom:0.625em solid#596784;}
+.B-sub-color{background-color:#2f2f31;}
+.B-line-color{background-color:#425381}
+.B-eye-color{border:0.5rem solid#425381;} 
+.B-part-color{border:1px solid #e1e1e1;}
+.B-part-color-a{background-color:#a6acbb; border-bottom:0.3em solid #596784;margin:5% auto; border-right:0.2em solid#425381; border-top:0.1em solid #e1e1e1;; border-left:0.1em solid #e1e1e1;}
+.B-part-color-b{background-color:#a6acbb; border-top:0.3em solid #596784;margin:5% auto; border-left:0.2em solid#425381; border-bottom:0.1em solid #e1e1e1;; border-right:0.1em solid #e1e1e1;}
 
+.Y-bg-color{background-color:	#ecdb84;}
+.Y-main-color{background-color:#ee8a22; border-bottom:0.625em solid#8f2f20;}
+.Y-sub-color{background-color:#be3e2b}
+.Y-line-color{background-color:	#122f3d}
+.Y-eye-color{border:0.5rem solid	#122f3d} 
+.Y-part-color{border:1px solid #e1e1e1;}
+.Y-chest-color{background-color:#be3e2b; border-bottom:0.3em solid #8f2f20; border-right:0.3em solid #8f2f20;;border-top:0.2em solid #ecdb84;border-left:0.2em solid #ecdb84;}
+.Y-part-color-a{background-color:#f7942a; border-bottom:0.3em solid #be3e2b;margin:5% auto; border-right:0.2em solid#be3e2b; border-top:0.1em solid #e1e1e1;; border-left:0.1em solid #e1e1e1;}
+.Y-part-color-b{background-color:#f7942a; border-top:0.3em solid #be3e2b;margin:5% auto; border-left:0.2em solid#be3e2b; border-bottom:0.1em solid #e1e1e1;; border-right:0.1em solid #e1e1e1;}
 
+/***애니메이션***/
    .arm_ani{animation-name:armAni; transform-origin:top right;
     animation-direction: normal; animation-fill-mode: forwards; animation-duration:1s;}
    .arm_ani_back{animation-name:armAniback; transform-origin:top right;
     animation-direction: normal; animation-fill-mode: forwards; animation-duration:1s;}
-    .elbow_ani{animation-name:elbowAni; animation-direction: normal; animation-fill-mode: forwards; animation-duration:1.8s;}
+    .elbow_ani{animation-name:elbowAni; animation-direction: normal; animation-fill-mode: forwards; animation-duration:3s;}
     .elbow_ani_back{animation-name:elbowAniback; animation-direction: normal; animation-fill-mode: forwards; animation-duration:1s;}
-    .hat_ani{animation-name:hatAni; animation-direction: normal; animation-fill-mode: forwards; animation-duration:7s;}
+    .hat_ani{animation-name:hatAni; animation-direction: normal; animation-fill-mode: forwards; animation-duration:2s; animation-iteration-count: infinite; animation-timing-function: linear;}
 @keyframes armAni{
     0%{transform:rotate(0deg);}
     100%{transform:rotate(-90deg);}
@@ -156,7 +182,7 @@ body{background-color:#8ce0cd;}
 }
 @keyframes elbowAni{
     0%{transform:rotate(0deg);}
-    100%{transform:rotate(-200deg);}
+    100%{transform:rotate(-250deg);}
 }
 @keyframes elbowAniback{
     0%{transform:rotate(-200deg);}
@@ -164,17 +190,26 @@ body{background-color:#8ce0cd;}
 }
 @keyframes hatAni{
     0%{transform:rotate(0deg);}
-    100%{transform:rotate(800deg);}
+    100%{transform:rotate(360deg);}
 }
 
- @media screen and (max-width:1200px){
+
+/*********반응형************/
+
+ @media screen and (max-width:1190px){
+     html, body{font-size:11px;}
+     .gear1{width:120%;}
 }
 @media screen and (max-width:992px) {
-
-}
-@media screen and (max-width:768px) {
-
-}
-@media screen and (max-width:480px) {
+    html, body{font-size:8px;}
+    .robot{padding-top:20%;}
     
+}
+@media screen and (max-width:767px) {
+    html, body{font-size:7px;}
+    .robot{padding-top:30%;}
+}
+@media screen and (max-width:479px) {
+    html, body{font-size:4px;}
+    .robot{padding-top:40%;}
 }
