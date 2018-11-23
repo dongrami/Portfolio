@@ -1,3 +1,28 @@
+/**** My design ****/
+function designOver() {
+    $(".ear-left").stop().animate({"left": "-63%"}, 300);
+    $(".ear-1-left").stop().animate({"left": "-70%"}, 300);
+    $(".ear-right").stop().animate({"right": "-63%"}, 300);
+    $(".ear-1-right").stop().animate({"right": "-70%"}, 300);
+    $(".ear-gear1").stop().animate({"left": "0%"}, 500);
+    $(".ear-gear2").stop().animate({"right": "0%"}, 600);
+    $(".design").stop().animate({"left": "-105%"}, 300);
+    $(".content02").stop().slideDown(500);
+}
+function designBack() {
+    $(".ear-left").stop().animate({"left": "-13%"}, 300);
+    $(".ear-1-left").stop().animate({"left": "-15%"}, 300);
+    $(".ear-right").stop().animate({"right": "-13%"}, 300);
+    $(".ear-1-right").stop().animate({"right": "-15%"}, 300);
+    $(".ear-gear1").stop().animate({"left": "100%"}, 500);
+    $(".ear-gear2").stop().animate({"right": "100%"}, 500);
+    $(".design").stop().animate({"left": "-54%"}, 300);
+    $(".content02").hide();
+
+};
+$(".ear-left").mouseover(designOver);
+$(".exit-D").click(designBack);
+
 /**** About me ****/
 function aboutOver() {
     $(".hat").stop().animate({"bottom": "160%"}, 300);
@@ -27,37 +52,15 @@ function aboutBack() {
     $(".button-a").show();
     $(".design").show();
     $(".web").show();
+    $(".skill").hide();
     $(".robot").stop().animate({"left": "50%"}, 1000);
-
+    
 }
-$(".about").mouseover(aboutOver);
+$(".hat").mouseover(aboutOver);
 $(".exit-A").click(aboutBack);
 
 
-/**** My design ****/
-function designOver() {
-        $(".ear-left").stop().animate({"left": "-63%"}, 300);
-        $(".ear-1-left").stop().animate({"left": "-70%"}, 300);
-        $(".ear-right").stop().animate({"right": "-63%"}, 300);
-        $(".ear-1-right").stop().animate({"right": "-70%"}, 300);
-        $(".ear-gear1").stop().animate({"left": "0%"}, 500);
-        $(".ear-gear2").stop().animate({"right": "0%"}, 600);
-        $(".design").stop().animate({"left": "-98%"}, 300);
-        $(".content02").stop().slideDown(500);
-    }
-function designBack() {
-        $(".ear-left").stop().animate({"left": "-13%"}, 300);
-        $(".ear-1-left").stop().animate({"left": "-15%"}, 300);
-        $(".ear-right").stop().animate({"right": "-13%"}, 300);
-        $(".ear-1-right").stop().animate({"right": "-15%"}, 300);
-        $(".ear-gear1").stop().animate({"left": "100%"}, 500);
-        $(".ear-gear2").stop().animate({"right": "100%"}, 500);
-        $(".design").stop().animate({"left": "-48%"}, 300);
-        $(".content02").hide();
 
-    };
-    $(".design").mouseover(designOver);
-    $(".exit-D").click(designBack);
 /*******web site****/
     function webOver() {
     $(".arm_bot02").stop().removeClass("arm_ani_back").addClass("arm_ani");
@@ -68,10 +71,10 @@ function designBack() {
 function webBack() { 
     $(".arm_bot02").stop().removeClass("arm_ani").addClass("arm_ani_back");
     $(".elbow-gear").stop().removeClass("elbow_ani").addClass("elbow_ani_back");
-    $(".web").stop().animate({"top": "-15%","right": "-50%"}, 500);
+    $(".web").stop().animate({"top": "-15%","right": "-58%"}, 500);
     $(".content03").hide();
 };
-$(".web").mouseover(webOver);
+$(".arm02").mouseover(webOver);
 $(".exit-W").click(webBack);
 
 /*** color ***/
@@ -173,6 +176,7 @@ $(".exit-W").click(webBack);
     function content01(){
         $(".content01 li:first-child").stop().addClass("contentAni");
         $(".about-me").show();
+        $(".skill").show();
         $(".text").hide();
         $(".button-a").hide();
         $(".robot").stop().animate({"left": "28%"}, 1000);
@@ -180,3 +184,7 @@ $(".exit-W").click(webBack);
         $(".web").hide();
     }
     $(".button-a").click(content01);
+    $(".button-a").click(designBack);
+    $(".button-a").click(webBack);
+    
+    

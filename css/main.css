@@ -3,9 +3,9 @@
 
 .ab{position: absolute;}
 .re{position: relative;}
-.font1{font-family: 'Indie Flower', cursive; color:#fff; font-size: 2.5rem; }
+.font1{font-family: 'Indie Flower', cursive; color:#fff; font-size: 2.8rem; }
 .font2{font-family: 'Open Sans', sans-serif;  font-size:1.2rem;}
-.font3{font-family: 'Libre Baskerville', serif;  font-size:1.5rem; padding:0.2rem 0; font-weight: 500;}
+.font3{font-family: 'Libre Baskerville', serif;  font-size:1.8rem; padding:0.2rem 0; font-weight: 500;}
 body{background-color:#8ce0cd;}
 
 
@@ -29,13 +29,13 @@ body{background-color:#8ce0cd;}
  z-index:11111;}
     .hat{width:14em; height:6.5em; border-top-left-radius:300px; border-top-right-radius:300px; background:rgb(92, 80, 81); margin:0 auto; bottom:100%; left:50%;transform: translateX(-50%);z-index:1111; }
 
-    .about{top:-20%; right:-25%;}
+    .about{top:-20%; right:-28%;}
    
 
 
     .ear-left{width:3.5em; height:7.5em;background:rgb(106,76,110); top:32%;  left:-13%; z-index: 1111;}
 
-    .design{bottom:10%; left:-48%;}
+    .design{bottom:10%; left:-54%;}
 
     .ear-right{width:3.5em; height:7.5em; background:rgb(106,76,110); top:32%;  right:-13%; z-index: 1111;}
     .ear-1-left{width:0.6em; height:4.8em; background-color:rgb(65,42,28); top:38%;  left:-15%; z-index: 1111;}
@@ -62,7 +62,7 @@ body{background-color:#8ce0cd;}
     .arm01{width:5.8em; height:14em; background:rgb(251,70,121); left:-26%;border-radius:10px; border-top-left-radius:20px;  border-bottom:0.625em solid rgb(225,29,72);}
     .arm02{width:5.8em; height:14em; background:rgb(251,70,121); right:-26%;; border-radius:5px; border-top-right-radius:20px; border-bottom:0.625em solid rgb(225,29,72);}
 
-    .web{top:-15%; right:-50%; }
+    .web{top:-15%; right:-58%; }
 
     .elbow01{width:5.8em; height:0.8em;  left:-26%; bottom:46%; }
     .elbow02{width:5.8em; height:0.8em;  right:-26%; bottom:46%; }
@@ -128,19 +128,19 @@ body{background-color:#8ce0cd;}
         /*컨텐츠*/
         .content01{width:90em; top:-20%; left:120%; display:none;}
         .content01 > li{float:left;}
-        .content01 > li:first-child{background-color:#fff; color:#333; padding:1em; line-height:2em;}
+        .content01 > li:first-child{background-color:rgb(255,255,255,0.3);color:#333; padding:1em; line-height:2em;}
         .content01 > li:last-child{background-color:rgb(225,29,72);; color:#fff; padding:0.5em 1em; cursor: pointer;}
         .button{background-color:#aaa; padding:0.3em 1em; float:right;  font-size: 1em; margin-top:1em;}
 
 
         .content02{width:40em; top:120%; left:-55%; display:none;}
         .content02 li{float:left;}
-        .content02 li:first-child{background-color:#fff; color:#333; padding:1em; line-height:2em;}
+        .content02 li:first-child{background-color:rgb(255,255,255,0.3); color:#333; padding:1em; line-height:2em;}
         .content02 li:last-child{background-color:rgb(225,29,72);; color:#fff; padding:0.5em 1em; cursor: pointer;}
 
         .content03{top:100%; right:-90%; display:none;}
         .content03 li{float:left;}
-        .content03 li:first-child{background-color:#fff; color:#333; padding:1em; line-height:2em;}
+        .content03 li:first-child{background-color:rgb(255,255,255,0.3);color:#333; padding:1em; line-height:2em;}
         .content03 li:last-child{background-color:rgb(225,29,72); color:#fff; padding:0.5em 1em; cursor: pointer;}
 
 
@@ -220,4 +220,5 @@ body{background-color:#8ce0cd;}
 .about-me{display:none; padding:1rem;}
 .about-me > ul{margin-bottom:3rem;}
 .about-me > ul li:not(:first-child){font-size:1rem;}
-
+.skill{width:30rem;z-index:111111; display:none; left:330%; top:530%;}
+.skill img{width:100%;}
