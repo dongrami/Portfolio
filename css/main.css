@@ -1,22 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
-
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
 
 .ab{position: absolute;}
 .re{position: relative;}
 .font1{font-family: 'Indie Flower', cursive; color:#fff; font-size: 2.5rem; }
 .font2{font-family: 'Open Sans', sans-serif;  font-size:1.2rem;}
+.font3{font-family: 'Libre Baskerville', serif;  font-size:1.5rem; padding:0.2rem 0; font-weight: 500;}
 body{background-color:#8ce0cd;}
 
 
 
 
 .bg{width:100%; height:100%;background-image: url("../images/guide-line.png"); background-size: cover;}
-.robot{width:100%; padding-top:15%; height:100%; overflow:hidden; }
+.nav{width:100%; }
+.robot{width:180rem; height:100%; padding-top:15%; top:0; left:50%; transform: translateX(-50%);overflow:hidden;}
 
 
 
 .logo{width:13rem; top:5%; left:10%;}
-.palettes{top:15%; left:11%;}
+.palettes{top:15%; left:11%; z-index:111111;}
 .palette{float:left; width:3rem; height:3rem; border-radius: 50px; margin-right:2rem; border:0.3rem solid#fff; cursor: pointer;}
 .p-red{background-color:rgb(251,70,121);}
 .p-yellow{background-color:#ff8b00}
@@ -124,12 +126,10 @@ body{background-color:#8ce0cd;}
     .elbow-gear{top:56%; right:-24%; z-index: 11;}
 
         /*컨텐츠*/
-        .content01{width:40em; top:-20%; left:115%; display:none;}
-        .content01 li{float:left;}
-        .content01 li:first-child{background-color:#fff; color:#333; padding:1em; line-height:2em;}
-        .content01 li:first-child div{float:left; width:48%; padding:0 1%; height:100%;}
-        .content01 li:first-child .me{background-color:#ffb800; color:#000; font-size: 5em;text-align: center; line-height:2.3em}
-        .content01 li:last-child{background-color:rgb(225,29,72);; color:#fff; padding:0.5em 1em; cursor: pointer;}
+        .content01{width:90em; top:-20%; left:120%; display:none;}
+        .content01 > li{float:left;}
+        .content01 > li:first-child{background-color:#fff; color:#333; padding:1em; line-height:2em;}
+        .content01 > li:last-child{background-color:rgb(225,29,72);; color:#fff; padding:0.5em 1em; cursor: pointer;}
         .button{background-color:#aaa; padding:0.3em 1em; float:right;  font-size: 1em; margin-top:1em;}
 
 
@@ -161,8 +161,8 @@ body{background-color:#8ce0cd;}
 .Y-eye-color{border:0.5rem solid	#122f3d} 
 .Y-part-color{border:1px solid #e1e1e1;}
 .Y-chest-color{background-color:#be3e2b; border-bottom:0.3em solid #8f2f20; border-right:0.3em solid #8f2f20;;border-top:0.2em solid #ecdb84;border-left:0.2em solid #ecdb84;}
-.Y-part-color-a{background-color:#f7942a; border-bottom:0.3em solid #be3e2b;margin:5% auto; border-right:0.2em solid#be3e2b; border-top:0.1em solid #e1e1e1;; border-left:0.1em solid #e1e1e1;}
-.Y-part-color-b{background-color:#f7942a; border-top:0.3em solid #be3e2b;margin:5% auto; border-left:0.2em solid#be3e2b; border-bottom:0.1em solid #e1e1e1;; border-right:0.1em solid #e1e1e1;}
+.Y-part-color-a{background-color:#fc9f3c; border-bottom:0.3em solid #be3e2b;margin:5% auto; border-right:0.2em solid#be3e2b; border-top:0.1em solid #e1e1e1;; border-left:0.1em solid #e1e1e1;}
+.Y-part-color-b{background-color:#fc9f3c; border-top:0.3em solid #be3e2b;margin:5% auto; border-left:0.2em solid#be3e2b; border-bottom:0.1em solid #e1e1e1;; border-right:0.1em solid #e1e1e1;}
 
 /***애니메이션***/
    .arm_ani{animation-name:armAni; transform-origin:top right;
@@ -213,3 +213,11 @@ body{background-color:#8ce0cd;}
     html, body{font-size:4px;}
     .robot{padding-top:40%;}
 }
+
+/**********about me 상세페이지**************/
+.contentAni{transition-delay: 1s; transition: width 0.5s ease, height 0.5s ease;
+    width:60rem;}
+.about-me{display:none; padding:1rem;}
+.about-me > ul{margin-bottom:3rem;}
+.about-me > ul li:not(:first-child){font-size:1rem;}
+

@@ -21,6 +21,14 @@ function aboutBack() {
     $(".content01").hide();
     $(".hat-cont").hide();
     $(".about").stop().animate({"top":"-20%"}, 300);
+    $(".about-me").hide();
+    $(".content01 li:first-child").stop().removeClass("contentAni");
+    $(".text").show();
+    $(".button-a").show();
+    $(".design").show();
+    $(".web").show();
+    $(".robot").stop().animate({"left": "50%"}, 1000);
+
 }
 $(".about").mouseover(aboutOver);
 $(".exit-A").click(aboutBack);
@@ -160,3 +168,15 @@ $(".exit-W").click(webBack);
         $(".eye-2").removeClass("B-eye-color").addClass("Y-eye-color");
     }
     $(".p-yellow").click(yellowcolor);
+    
+
+    function content01(){
+        $(".content01 li:first-child").stop().addClass("contentAni");
+        $(".about-me").show();
+        $(".text").hide();
+        $(".button-a").hide();
+        $(".robot").stop().animate({"left": "28%"}, 1000);
+        $(".design").hide();
+        $(".web").hide();
+    }
+    $(".button-a").click(content01);
