@@ -80,7 +80,7 @@ body{background-color:#8ce0cd;}
 
     /*가슴*/
     .little-btn{width:50%; height:50%; right:-95%; top:10%;}
-    .lit-btn{width:30%; height:12%; border-radius:40px; background-color:#ffd800; border:1px solid rgb(192, 93, 0); right:10%;}
+    .lit-btn{width:30%; height:12%; border-radius:40px; background-color:#ffd800; border:1px solid rgb(143, 40, 0); right:10%;}
     .lit-btn:nth-child(1){top:14%;}
     .lit-btn:nth-child(2){top:28%;}
     .lit-btn:nth-child(3){top:42%;}
@@ -92,7 +92,7 @@ body{background-color:#8ce0cd;}
     .bar1{background-color:#00d5fb; top:40%; left:50%;transform: translateX(-50%); border:0.2em solid rgb(65,42,28);}
     
     .button-rec{ width:30%; height:80%; overflow:hidden; float:left; margin:5%;}
-    .button-rec li{ width:100%; height:25%; background-color:#ffd800; border-top:0.3em solid rgb(70, 70, 70); border-left:0.2em solid rgb(71, 71, 71); border-bottom:0.2em solid rgb(200,204,239);border-right:0.2em solid rgb(200,204,239);}
+    .button-rec li{ width:100%; height:25%; background:#ffd800; border-top:0.3em solid rgb(70, 70, 70); border-left:0.2em solid rgb(71, 71, 71); border-bottom:0.2em solid rgb(200,204,239);border-right:0.2em solid rgb(200,204,239);}
     .button-rec li:first-child{background-color: rgb(225,29,72);}
     .button-line{ width:40%; height:60%; overflow:hidden; float:right; margin:10% 9% 5%;}
     .button-line li{float: left; margin-left:10%; height:100%; border-top:0.3em solid rgb(63, 63, 63); border-left:0.2em solid rgb(59, 59, 59); border-bottom:0.2em solid rgb(200,204,239);border-right:0.2em solid rgb(200,204,239);}
@@ -138,10 +138,12 @@ body{background-color:#8ce0cd;}
         .content02 li:first-child{background-color:rgb(255,255,255,0.3); color:#333; padding:1em; line-height:2em;}
         .content02 li:last-child{background-color:rgb(225,29,72);; color:#fff; padding:0.5em 1em; cursor: pointer;}
 
-        .content03{top:100%; right:-90%; display:none;}
+        .content03{width:35em; top:100%; right:-210%; display:none;}
         .content03 li{float:left;}
-        .content03 li:first-child{background-color:rgb(255,255,255,0.3);color:#333; padding:1em; line-height:2em;}
-        .content03 li:last-child{background-color:rgb(225,29,72); color:#fff; padding:0.5em 1em; cursor: pointer;}
+        .content03 > li:first-child{background-color:rgb(255,255,255,0.3);color:#333; padding:1em; width:93%;}
+        .content03 > li:last-child{background-color:rgb(225,29,72); color:#fff; padding:0.5em 1em; cursor: pointer; width:7%;}
+        .text3 li{width: 33%; padding:0 1%;}
+        .text3 li img{width:100%;}
 
 
 /***** color*****/
@@ -153,16 +155,21 @@ body{background-color:#8ce0cd;}
 .B-part-color{border:1px solid #e1e1e1;}
 .B-part-color-a{background-color:#a6acbb; border-bottom:0.3em solid #596784;margin:5% auto; border-right:0.2em solid#425381; border-top:0.1em solid #e1e1e1;; border-left:0.1em solid #e1e1e1;}
 .B-part-color-b{background-color:#a6acbb; border-top:0.3em solid #596784;margin:5% auto; border-left:0.2em solid#425381; border-bottom:0.1em solid #e1e1e1;; border-right:0.1em solid #e1e1e1;}
+.B-button-rec{background-color:#00d5fb !important; }
+.B-button-rec1{background-color:#01266d !important; }
 
 .Y-bg-color{background-color:	#ecdb84;}
 .Y-main-color{background-color:#ee8a22; border-bottom:0.625em solid#8f2f20;}
-.Y-sub-color{background-color:#be3e2b}
-.Y-line-color{background-color:	#122f3d}
+.Y-sub-color{background-color:#122f3d}
+.Y-line-color{background-color:	#be3e2b}
 .Y-eye-color{border:0.5rem solid	#122f3d} 
+.Y-mouse-color{background-color:#122f3d} 
 .Y-part-color{border:1px solid #e1e1e1;}
 .Y-chest-color{background-color:#be3e2b; border-bottom:0.3em solid #8f2f20; border-right:0.3em solid #8f2f20;;border-top:0.2em solid #ecdb84;border-left:0.2em solid #ecdb84;}
 .Y-part-color-a{background-color:#fc9f3c; border-bottom:0.3em solid #be3e2b;margin:5% auto; border-right:0.2em solid#be3e2b; border-top:0.1em solid #e1e1e1;; border-left:0.1em solid #e1e1e1;}
-.Y-part-color-b{background-color:#fc9f3c; border-top:0.3em solid #be3e2b;margin:5% auto; border-left:0.2em solid#be3e2b; border-bottom:0.1em solid #e1e1e1;; border-right:0.1em solid #e1e1e1;}
+.Y-part-color-b{background-color:#fc9f3c; border-top:0.3em solid #be3e2b;margin:5% auto; border-left:0.2em solid#be3e2b; border-bottom:0.1em solid #e1e1e1; border-right:0.1em solid #e1e1e1;}
+.Y-button-rec{background-color:#01d193 !important;  }
+.Y-button-rec1{background-color:#003c4e !important; }
 
 /***애니메이션***/
    .arm_ani{animation-name:armAni; transform-origin:top right;

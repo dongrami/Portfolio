@@ -106,6 +106,9 @@ $(".exit-W").click(webBack);
         $(".part3-1").addClass("B-part-color-b").removeClass("Y-part-color-b");
         $(".eye-1").addClass("B-eye-color").removeClass("Y-eye-color");
         $(".eye-2").addClass("B-eye-color").removeClass("Y-eye-color");
+        $(".button-rec li").addClass("B-button-rec").removeClass("Y-button-rec");
+        $(".button-rec li:first-child").addClass("B-button-rec1").removeClass("Y-button-rec1");
+        $(".mouse").removeClass("Y-mouse-color");
     }
     $(".p-blue").click(bluecolor);
     
@@ -138,6 +141,9 @@ $(".exit-W").click(webBack);
         $(".part3-1").removeClass("B-part-color-b").removeClass("Y-part-color-b");
         $(".eye-1").removeClass("B-eye-color").removeClass("Y-eye-color");
         $(".eye-2").removeClass("B-eye-color").removeClass("Y-eye-color");
+        $(".mouse").removeClass("Y-mouse-color");
+        $(".button-rec li").removeClass("Y-button-rec").removeClass("B-button-rec");
+        $(".button-rec li:first-child").removeClass("Y-button-rec1").removeClass("B-button-rec1");
     }
     $(".p-red").click(redcolor);
 
@@ -169,14 +175,17 @@ $(".exit-W").click(webBack);
         $(".part3-1").removeClass("B-part-color-b").addClass("Y-part-color-b");
         $(".eye-1").removeClass("B-eye-color").addClass("Y-eye-color");
         $(".eye-2").removeClass("B-eye-color").addClass("Y-eye-color");
+        $(".mouse").addClass("Y-mouse-color");
+        $(".button-rec li").removeClass("B-button-rec").addClass("Y-button-rec");
+        $(".button-rec li:first-child").removeClass("B-button-rec1").addClass("Y-button-rec1");
     }
     $(".p-yellow").click(yellowcolor);
     
 
     function content01(){
         $(".content01 li:first-child").stop().addClass("contentAni");
-        $(".about-me").show();
-        $(".skill").show();
+        $(".about-me").slideDown();
+        $(".skill").slideDown();
         $(".text").hide();
         $(".button-a").hide();
         $(".robot").stop().animate({"left": "28%"}, 1000);
