@@ -1,2 +1,14 @@
+img{max-width:600px; }
+
 .bg{width:100%; height:100%; background-image:url("../images/bg.PNG"); background-size: cover;}
-.site{background-color:#333; margin:30% auto 0; height:20%;}
+.nav{width:100%; background-color:#000; position: fixed;}
+.wrap{width:80%;height:100%;margin:auto; padding-top:15rem;}
+.menu{padding:1rem 0; margin:auto;}
+.menu li{float:right;}
+.menu li a{ color:#fff; font-size: 2rem; font-weight: bold; padding:1rem;}
+.menu li a:hover{color:#ffb800;}
+.menu li:first-child{float:left; width:9rem;}
+.site{width:18.4%; height:80%; margin-left:2%; float:left; background-color:#000; position: relative; overflow: hidden;}
+.site:first-child{margin-left:0; color:rgb(255,255,255, 0.3); font-weight: bold; font-size:5rem; background-image:url("../images/sneakers.png"); background-size:cover;}
+.site:first-child > div{width:100%; height:100%; background-color:rgba(6, 14, 41, 0.8)}
+.nike{position:absolute;top:28%; right:-30%; transform: rotate(-45deg);}
