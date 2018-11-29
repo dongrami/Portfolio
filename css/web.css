@@ -1,14 +1,24 @@
 img{max-width:600px; }
 
-.bg{width:100%; height:100%; background-image:url("../images/bg.PNG"); background-size: cover;}
-.nav{width:100%; background-color:#000; position: fixed;}
-.wrap{width:80%;height:100%;margin:auto; padding-top:15rem;}
-.menu{padding:1rem 0; margin:auto;}
+.bg{width:100%; height:100%; background-image:url("../images/bg.PNG"); background-size: cover; overflow: hidden;}
+.nav{width:100%; background-color:#000; border-bottom:1px solid#6700bb;}
+.wrap{width:80%;height:100%;margin:auto; margin-top:3.5rem;}
+.menu{padding:0.5rem 0; margin:auto;}
 .menu li{float:right;}
 .menu li a{ color:#fff; font-size: 2rem; font-weight: bold; padding:1rem;}
 .menu li a:hover{color:#ffb800;}
 .menu li:first-child{float:left; width:9rem;}
-.site{width:18.4%; height:80%; margin-left:2%; float:left; background-color:#000; position: relative; overflow: hidden;}
-.site:first-child{margin-left:0; color:rgb(255,255,255, 0.3); font-weight: bold; font-size:5rem; background-image:url("../images/sneakers.png"); background-size:cover;}
-.site:first-child > div{width:100%; height:100%; background-color:rgba(6, 14, 41, 0.8)}
+.site{width:19.2%; height:80%; margin-left:1%; float:left; background-color:#000; position: relative; overflow: hidden; border-top:1px solid#6700bb;border-bottom:1px solid#6700bb;} 
+.site01{margin-left:0;background-image:url("../images/web/sneakers.png"); background-size:cover;}
+.navi{padding-top:1rem;}
+.site-bg{width:100%; height:100%; background-color:rgba(6, 14, 41, 0.8)}
 .nike{position:absolute;top:28%; right:-30%; transform: rotate(-45deg);}
+.text{width:100%;height:100%; background-color:rgba(0, 0, 0, 0.8);position: absolute; top:0; right:100%;}
+.txt{color:#ccc; position: absolute; width:80%; margin:0 auto;left:50%; top:50%; transform: translate(-50%, -50%);display: none; cursor: pointer;}
+.txt:hover{color:#52ddbf}
+.txt h1{font-weight: bold; padding:0.5rem 0; border-bottom:1px solid#aaa; margin-bottom:2rem;}
+.txt p{padding-top:0.5rem;}
+
+
+.site02{background-image:url("../images/web/mario.jpg"); background-repeat:no-repeat; background-size:cover; background-position-x:30%;}
+.lego{position:absolute;bottom:0; right:-15%; width:100%}
