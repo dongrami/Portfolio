@@ -6,7 +6,7 @@ img{max-width:600px; }
 .menu{padding:0.5rem 0; margin:auto;}
 .menu li{float:right;}
 .menu li a{ color:#fff; font-size: 2rem; font-weight: bold; padding:1rem;}
-.menu li a:hover{color:#ffb800;}
+.menu li a:hover{color:#52ddbf;}
 .menu li:first-child{float:left; width:9rem;}
 .site{width:19.2%; height:80%; margin-left:1%; float:left; background-color:#000; position: relative; overflow: hidden; border-top:1px solid#6700bb;border-bottom:1px solid#6700bb;} 
 .site01{margin-left:0;background-image:url("../images/web/sneakers.png"); background-size:cover;}
