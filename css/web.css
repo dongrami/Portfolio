@@ -8,17 +8,17 @@ img{max-width:600px; }
 .menu li a{ color:#fff; font-size: 2rem; font-weight: bold; padding:1rem;}
 .menu li a:hover{color:#52ddbf;}
 .menu li:first-child{float:left; width:9rem;}
-.site{width:19.2%; height:80%; margin-left:1%; float:left; background-color:#000; position: relative; overflow: hidden; border-top:1px solid#6700bb;border-bottom:1px solid#6700bb;} 
-.site01{margin-left:0;background-image:url("../images/web/sneakers.png"); background-size:cover;}
+.site{width:19.2%; height:80%; margin-left:1%; float:left; background-color:rgba(6, 14, 41, 0.8); position: relative; overflow: hidden; } 
+.site01{margin-left:0;background-image:url("../images/web/sneakers.jpg"); background-size:cover;background-position-x:2%;background-repeat:no-repeat;}
 .navi{padding-top:1rem;}
 .site-bg{width:100%; height:100%; background-color:rgba(6, 14, 41, 0.8)}
 .nike{position:absolute;top:28%; right:-30%; transform: rotate(-45deg);}
 .text{width:100%;height:100%; background-color:rgba(0, 0, 0, 0.8);position: absolute; top:0; right:100%;}
-.txt{color:#ccc; position: absolute; width:80%; margin:0 auto;left:50%; top:50%; transform: translate(-50%, -50%);display: none; cursor: pointer;}
+.txt{color:#fff; position: absolute; width:80%; margin:0 auto;left:50%; top:50%; transform: translate(-50%, -50%);display: none; cursor: pointer;}
 .txt:hover{color:#52ddbf}
 .txt h1{font-weight: bold; padding:0.5rem 0; border-bottom:1px solid#aaa; margin-bottom:2rem;}
 .txt p{padding-top:0.5rem;}
 
 
-.site02{background-image:url("../images/web/mario.jpg"); background-repeat:no-repeat; background-size:cover; background-position-x:30%;}
+.site02{background-image:url("../images/web/robot.jpg"); background-repeat:no-repeat; background-size:cover; background-position-x:55%;}
 .lego{position:absolute;bottom:0; right:-15%; width:100%}
