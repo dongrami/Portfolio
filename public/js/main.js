@@ -16,7 +16,7 @@ function designBack() {
     $(".ear-1-right").stop().animate({"right": "-15%"}, 300);
     $(".ear-gear1").stop().animate({"left": "100%"}, 500);
     $(".ear-gear2").stop().animate({"right": "100%"}, 500);
-    $(".design").stop().animate({"left": "-54%"}, 300);
+    $(".design").stop().animate({"left": "-58%"}, 300);
     $(".content02").hide();
 
 };
