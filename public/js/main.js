@@ -1,14 +1,14 @@
 $(".about").hover(function(){
-    $(".hat").css({"border":"0.1rem solid#ffb800"})
+    $(".hat").css({"border":"0.2rem solid#01d153"})
 },
 function(){$(".hat").css({"border":"0"})
 });
 $(".design").hover(function(){
-    $(".ear-left").css({"border":"0.1rem solid#ffb800"})},
+    $(".ear-left").css({"border":"0.2rem solid#01d153"})},
     function(){$(".ear-left").css({"border":"0"})
     });
 $(".web").hover(function(){
-    $(".arm02").css({"border":"0.1rem solid#ffb800"})},
+    $(".arm02").css({"border":"0.2rem solid#01d153"})},
     function(){$(".arm02").css({"border":"0"})
     });
 /**** My design ****/
@@ -78,7 +78,7 @@ $(".exit-A").click(aboutBack);
     function webOver() {
     $(".arm_bot02").stop().removeClass("arm_ani_back").addClass("arm_ani");
     $(".elbow-gear").stop().removeClass("elbow_ani_back").addClass("elbow_ani");
-    $(".web").stop().animate({"top": "-40%","right": "-80%"}, 500);
+    $(".web").stop().animate({"top": "-30%","right": "-80%"}, 500);
     $(".content03").stop().slideDown(500);
 };
 function webBack() { 
