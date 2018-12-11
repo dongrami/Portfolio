@@ -66,6 +66,7 @@ function aboutBack() {
     $(".design").show();
     $(".web").show();
     $(".skill").hide();
+    $(".nav").show();
     $(".robot").stop().animate({"left": "50%"}, 1000);
     
 }
@@ -201,12 +202,18 @@ $(".exit-W").click(webBack);
         $(".skill").slideDown();
         $(".text").hide();
         $(".button-a").hide();
-        $(".robot").stop().animate({"left": "28%"}, 1000);
+        $(".robot").stop().animate({"left": "20%"}, 1000);
         $(".design").hide();
         $(".web").hide();
+        $(".nav").hide();
     }
     $(".button-a").click(content01);
     $(".button-a").click(designBack);
     $(".button-a").click(webBack);
     
-    
+    $(".skill .sk").hover(function(){
+        $(this).removeClass("skill_back").addClass("skill_ani");
+    },
+    function(){
+        $(this).removeClass("skill_ani").addClass("skill_back");
+    })
