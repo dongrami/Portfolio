@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+
+.ab{position: absolute;}
+.re{position: relative;}
+body{background-color:#8ce0cd; font-size: 1rem; max-width:767px;width:100%; height:100%;background-image: url("../images/guide-line.png"); background-size: cover;}
+.wrap{width:100%; height:100%;}
+.nav{width:100%; }
+.logo{width:20%;float:left; padding:1rem;}
+.logo img{width:100%}
+.bg{width:100%; height:80%; bottom:0; overflow:hidden;}
+.bg img{position: absolute; bottom:-1%; left:50%; transform: translateX(-50%); width:70%;}
