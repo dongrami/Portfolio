@@ -3,7 +3,7 @@
 
 .ab{position: absolute;}
 .re{position: relative;}
-body{background-color:#8ce0cd; font-size: 1rem;}
+body{background-color:#8ce0cd; font-size: 1rem;font-family: 'Noto Sans KR', sans-serif;}
 
 .font1{font-family: 'Indie Flower', cursive; color:#fff; font-size: 3rem; }
 .font2{font-family: 'Open Sans', sans-serif;  font-size:1.2rem;}
