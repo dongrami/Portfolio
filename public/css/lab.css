@@ -1,0 +1,72 @@
+body, html{height:100%;}
+.wrap{width:100%; max-width:1250px; margin:0 auto;}
+.re{position: relative;}
+.ab{position: absolute;}
+
+/***********header************/
+.header{width:100%; position: fixed; top:0; z-index: 11111;}
+.top_line{width:100%; padding:0.3rem; background-color:#000; color:#ccc; text-align: center;}
+.nav{padding-top:2rem;}
+.logo{width:5%;float:left;}
+.logo img{width:100%;}
+.logo_txt{float:left; font-size: 1.2rem; font-weight: bold; color:#0064ac; margin-left:1%;}
+.navi{width:85%; float:right; padding-top:1%;}
+.navi > li{float:right; padding-left:5%; font-size: 1.5rem; font-weight: bold; color:#0064ac;}
+.navi > li a{color:#0064ac;}
+.navi_mo{display:none;}
+.ban_bg{width:100%;height:80%; background-image:url("../images/lab/bg01.jpg");background-repeat: no-repeat; margin-bottom:8rem;}
+.banner{width:50%; top:55%;left:50%; transform: translateX(-50%);}
+.ban_txt{width:100%; text-align: center; top:25%;color:#fff;font-size: 1.7rem;}
+.ban_link{color:#aaa !important; font-size:1.8rem; font-weight:bold; top:80%; right:20%;}
+
+/***********contents**************/
+.contents > h1{color:#0064ac; text-align:center; padding:5rem 0;}
+.cont{width:100%; padding-bottom:10rem;}
+.cont li{float:left; width:19.2%; margin-left:1%;}
+.cont li:first-child{margin-left:0;}
+.con_txt{width:60%; font-size: 1.2rem;padding-top:10%;margin-left:15%;}
+.con_txt p:first-of-type{color:#aaa;padding-bottom:15%;}
+.con_txt p:nth-of-type(2){color:#000;padding-bottom:8%;}
+
+
+/**********mid banner*************/
+.mid_banner{width:100%; background-color:#98a4ad; padding:5rem;}
+.mid_banner > h1{color:#fff; text-align:center; padding-bottom:5rem;}
+.mid_ban li{float:left; width:28%; margin-left:8%;}
+.mid_ban li img{width:100%;}
+.mid_ban li:first-child{margin-left:0;}
+.mid_bg{width:100%;}
+
+/***************brand***************/
+.brands{width: 100%; height:80%; margin-bottom:26%;}
+.brands > h1{color:#0064ac; text-align:center; padding:5rem 0;}
+.br{width:100%; height:100%; margin:5rem auto;}
+.brand{transform: rotate(45deg); width:20%; height:34%; }
+.logo1{top:0; left:5%;background-color:#0064ac}
+.logo1 img{transform: rotate(-45deg);padding-top:10%;}
+.logo2{top:0; left:40%; background-color:#cf112d;}
+.logo2 img{transform: rotate(-45deg);padding-top:10%;}
+.logo3{top:0; right:5%; border:0.1rem solid#0064ac;}
+.logo3 img{transform: rotate(-45deg);padding-top:5%;}
+.logo4{top:28%; left:22.3%; border:0.1rem solid#0064ac;}
+.logo4 img{transform: rotate(-45deg);padding-top:5%;}
+.logo5{top:28%; right:22.3%; background-color:#000;}
+.logo5 img{transform: rotate(-45deg);padding-top:10%;}
+.logo6{top:56%; left:5%; border:0.1rem solid#0064ac;}
+.logo6 img{transform: rotate(-45deg);}
+.logo7{top:56%; left:40%; background-color:#0064ac}
+.logo7 h2{transform: rotate(-45deg); color:#fff; font-size:3rem; padding-top:25%; text-align: center; padding-right:20%;}
+.logo8{top:56%; right:5%; border:0.1rem solid#0064ac;}
+.logo8 img{transform: rotate(-45deg);padding-top:5%;}
+.brand_bg{width:100%;}
+
+/******************blog****************/
+.blogs{width:100%; background-color:#98a4ad;}
+.blogs > h1{color:#fff; text-align:center; padding:5rem 0;}
+.blog{font-size: 1rem;}
+.blog li{width:32%; margin-left:2%; float:left; margin-bottom:1rem; background-color:#fff;}
+.blog li:first-child, .blog li:nth-child(4){margin-left:0;}
+.blog li .img{width:90%; margin:5% auto;}
+.blog li img{width:100%;max-width:330px; max-height:200px; }
+
+

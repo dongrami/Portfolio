@@ -35,8 +35,8 @@ body{ height:100%; background-image:url("../images/bg.PNG"); background-size: co
  .dl_icon{width:80%; max-width:200px;}
  .dl_area{font-size:1.5rem; color:#ccc; font-weight: bold;}
  .dl_area p{padding-top:15%;}
- #modal_open{background-color:#333; color:#fff; font-size: 1.2rem; font-weight: 500;letter-spacing: 0.1rem;font-family: 'Gothic A1', sans-serif;  margin:8% 0;}
- .dl_txts{width:100%; height:100%;}
+ #modal_open{background-color:#333; color:#fff; font-size: 1.2rem; font-weight: 500;letter-spacing: 0.1rem;font-family: 'Gothic A1', sans-serif;  margin:8% 0; padding:0.3rem 0.5rem; border-radius: 5px;}
+ .dl_txts{width:100%; height:100%;margin-top:20%;}
  .dl_txt{margin-top:3%;}
  .dl_date{font-size:1.5em; color:#fff;}
  .dl_temp{font-size:1.8em; color:#ffe346; font-weight: bold;}
@@ -59,24 +59,39 @@ body{ height:100%; background-image:url("../images/bg.PNG"); background-size: co
 .site{width:49.5%; height:25%; margin-top:1%;}
 .site03{margin-left:0;}
 .site05{width:100%; margin-left:0;}
-.tabs{height:5%; text-align: left; width:100%; font-size: 1rem; font-weight: bold;color:#eee; padding-top:1rem;}
-.daily{width:100%; height:calc(100% - 5%); padding:3%;}
-.daily > div{  padding-top:5%; font-size: 1rem;}
- .dl_icon{width:10%;float: left;}
- .dl_area{font-size:1.5rem; color:#ccc; font-weight: bold;}
- .dl_area p{padding-top:15%;}
- #modal_open{background-color:#333; color:#fff; font-size: 1.2rem; font-weight: 500;letter-spacing: 0.1rem;font-family: 'Gothic A1', sans-serif;  margin:8% 0; float:left;}
- .dl_txts{float:right;}
+.tabs{display:none}
+.daily{width:100%; height:100%; padding:3%;}
+.daily > div{  padding-top:0; font-size: 1rem;}
+ .dl_icon{width:25%;float: left;}
+ .dl_area{font-size:1.5rem;float:left; margin-left:5%;}
+ .dl_area p{padding-top:50%;}
+ #modal_open{ float:left;}
+ .dl_txts{float:right; width:40%; text-align: right;margin-top:0;}
+ .dl_date{margin-top:0; font-size: 1.2rem;}
+ .dl_temp{font-size:1.5em; }
+ .dl_temp2{font-size:1em; }
+ .dl_desc{font-size:1.3em;}
 }
 @media screen and (max-width:767px){
     .navi{padding-top:0}
     .menu li a{font-size: 1.5rem;}
     .logo img{width:80%}
+    .dl_icon{width:25%;float: left; padding-top:5%;}
+
 }
 @media screen and (max-width:480px){
-.site{width:100%; height:25%; margin-left:0;}
+.site:not(:last-child){width:100%; height:40%; margin-left:0;}
+.site05{height:55%}
 .menu li:first-child{float:left; width:5rem;}
 .logo img{width:100%}
 .menu li a{font-size: 1.2rem; padding:0;}
 .menu li{padding-left:5%}
+.dl_icon{width:25%;float: none;}
+.dl_area{font-size:1.5rem; color:#ccc; font-weight: bold;float:none; margin-left:0;}
+.dl_area p{padding-top:5%;}
+#modal_open{float:none;}
+
+.dl_txts{float:none; width:100%; text-align: center;}
+
+
 }
