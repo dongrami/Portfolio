@@ -30,8 +30,6 @@ body{background-color:#8ce0cd; font-size: 1rem;font-family: 'Noto Sans KR', sans
 
     .about{top:-20%; right:-32%;}
 
-
-
     .ear-left{width:3.5rem; height:7.5rem;background:rgb(106,76,110); top:32%;  left:-13%; z-index: 1111;}
 
     .design{bottom:10%; left:-58%;}
@@ -99,7 +97,7 @@ body{background-color:#8ce0cd; font-size: 1rem;font-family: 'Noto Sans KR', sans
     .part3{width:24%; height:35%; border:1px solid rgb(228, 110, 155); top:45%; right:15%; }
     .part2-1{width:90%; height:90%; border-bottom:0.3rem solid rgb(250,30,80);margin:5% auto; border-right:0.2rem solid rgb(250,30,70); background-color:rgb(255,90,131);
         border-top:0.1rem solid rgb(250,180,200); border-left:0.1rem solid rgb(250,180,200);}
-    .part2-1 p{font-weight: bold; color:#fff;font-size:1.4rem; text-align: center; line-height:2rem; }
+    .part2-1 p{font-weight: bold; color:#fff;font-size:1.4rem; text-align: center; line-height:2rem; padding-top:1rem; }
     .part3-1{width:90%; height:90%; border-top:0.3rem solid rgb(250,20,80);margin:5% auto; border-left:0.2rem solid rgb(250,30,80); background-color:rgb(255,90,131);border-bottom:0.1rem solid rgb(250,180,200); border-right:0.1rem solid rgb(250,180,200);}
     .screw1{width:10%; height:7%; top:5%; left:5%; background-color: #888; border-radius: 50px; border-right:1px solid#333; border-left:1px solid#fff;}
     .screw2{width:10%; height:7%; top:5%; right:5%; background-color: #888; border-radius: 50px;  border-right:1px solid#333;border-left:1px solid#fff; }
@@ -125,6 +123,10 @@ body{background-color:#8ce0cd; font-size: 1rem;font-family: 'Noto Sans KR', sans
     .elbow-gear{top:56%; right:-24%; z-index: 11;}
 
         /*컨텐츠*/
+        .me{width:9rem; margin-top:1rem; float:left;}
+        .me01{top:4%;left:53%;}
+        .me img{width:100%;}
+        .text1{width:14rem;float:left;}
         .text{padding:0 1rem; color:#fff;}
         .text p{margin:0.5rem 0; }
         .content01{width:90rem; top:-20%; left:120%; display:none;}
@@ -146,7 +148,12 @@ body{background-color:#8ce0cd; font-size: 1rem;font-family: 'Noto Sans KR', sans
         .content03 > li:last-child{background-color:rgb(225,29,72); color:#fff; padding:0.5rem 1rem; cursor: pointer;}
         .text3 li{float:left; width:48%; margin-bottom:0.3rem;}
         .text3 li:nth-child(2), .text3 li:nth-child(4){margin-left:4%;}
-        .text3 li img{width:100%;}
+        .text3 li a:hover{background-color:rgb(0,0,0,0.3); }
+        .text3 li a:nth-child(1):hover{}
+        .text3 li a:nth-child(2):hover{}
+        .text3 li a:nth-child(3):hover{}
+        .text3 li a:nth-child(4):hover{}
+        .text3 li a img{width:100%;}
         
 
 
