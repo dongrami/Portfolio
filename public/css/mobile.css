@@ -6,14 +6,14 @@
 body{background-color:#8ce0cd; font-size: 1.5rem;width:100%; height:100%;font-family: 'Noto Sans KR', sans-serif;}
 .wrap{width:100%; height:100%;background-image: url("../images/guide-line.png"); background-size: cover;}
 .nav{width:100%; }
-.logo{width:20%;float:left; padding:2rem 1rem;}
+.logo{width:30%;float:left; padding:2rem 1rem;}
 .logo img{width:100%}
 .bg{width:100%; height:80%; bottom:0; overflow:hidden;}
 .bg img{position: absolute; bottom:-1%; left:50%; transform: translateX(-50%); width:60%;}
 
 .navs_mo {float:right;}
-.navs_mo {width:80px; height:80px; line-height:80px; text-align:center; color:#fff; font-size:3rem;}
-.navs_mo > ul {position:absolute; width:100%;; left:0; top:80px; z-index:55555;}
+.navs_mo {width:80px; height:80px; line-height:80px; text-align:center; color:#fff; font-size:10rem;}
+.navs_mo > ul {position:absolute; width:100%; left:0; top:13rem; z-index:55555;}
 .navs_mo > ul > li {padding:0.5em; background-color:rgb(0,0,0,0.8);border-bottom:1px solid#aaa;}
 
 .about-me{display:none; padding:3rem; background-color:#fff; width:100%; height:100%;}

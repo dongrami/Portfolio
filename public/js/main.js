@@ -91,6 +91,8 @@ function webBack() {
 $(".arm02").mouseover(webOver);
 $(".exit-W").click(webBack);
 
+
+
 /*** color ***/
     function bluecolor (){
         $(".bg").addClass("B-bg-color").removeClass("Y-bg-color");
@@ -211,6 +213,8 @@ $(".exit-W").click(webBack);
     $(".button-a").click(designBack);
     $(".button-a").click(webBack);
     
+
+    /*********************skill****************/
     $(".skill .sk").hover(function(){
         $(this).removeClass("skill_back").addClass("skill_ani");
     },
