@@ -31,10 +31,19 @@ function designBack() {
     $(".ear-gear2").stop().animate({"right": "100%"}, 500);
     $(".design").stop().animate({"left": "-58%"}, 300);
     $(".content02").hide();
+    $(".my-design").hide();
+    $(".content02 li:first-child").stop().removeClass("content02Ani");
+    $(".text").show();
+    $(".button-b").show();
+    $(".about").show();
+    $(".web").show();
+    $(".nav").show();
+    $(".robot").stop().animate({"left": "50%"}, 1000);
+    $(".content02").stop().animate({"left": "-55%","top": "120%"},1000);
 
 };
 $(".ear-left").mouseover(designOver);
-$(".exit-D").click(designBack);
+$(".exit-B").click(designBack);
 
 /**** About me ****/
 function aboutOver() {
@@ -60,7 +69,7 @@ function aboutBack() {
     $(".hat-cont").hide();
     $(".about").stop().animate({"top":"-20%"}, 300);
     $(".about-me").hide();
-    $(".content01 li:first-child").stop().removeClass("contentAni");
+    $(".content01 li:first-child").stop().removeClass("content01Ani");
     $(".text").show();
     $(".button-a").show();
     $(".design").show();
@@ -197,9 +206,9 @@ $(".exit-W").click(webBack);
     }
     $(".p-yellow").click(yellowcolor);
     
-
+/***********About me 세부 ***************/
     function content01(){
-        $(".content01 li:first-child").stop().addClass("contentAni");
+        $(".content01 li:first-child").stop().addClass("content01Ani");
         $(".about-me").slideDown();
         $(".skill").slideDown();
         $(".text").hide();
@@ -209,9 +218,24 @@ $(".exit-W").click(webBack);
         $(".web").hide();
         $(".nav").hide();
     }
-    $(".button-a").click(content01);
     $(".button-a").click(designBack);
+    $(".button-a").click(content01);
     $(".button-a").click(webBack);
+
+    /***********My-design 세부 ***************/
+    function content02(){
+        $(".content02 li:first-child").stop().addClass("content02Ani");
+        $(".my-design").slideDown();
+        $(".button-b").hide();
+        $(".robot").stop().animate({"left": "80%"}, 1000);
+        $(".content02").stop().animate({"left": "-330%","top": "-580%"},1000);
+        $(".about").hide();
+        $(".web").hide();
+        $(".nav").hide();
+    }
+    $(".button-b").click(aboutBack);
+    $(".button-b").click(content02);
+    $(".button-b").click(webBack);
     
 
     /*********************skill****************/

@@ -138,10 +138,10 @@ img{vertical-align: bottom;}
         .button:hover{background-color: #000;}
 
 
-        .content02{width:40rem; top:120%; left:-55%; display:none;}
+        .content02{width:60rem; top:120%; left:-55%; display:none;}
         .content02 li{float:left;}
-        .content02 li:first-child{background-color:rgb(0,0,0,0.4);color:#fff; padding:1rem; line-height:2rem;}
-        .content02 li:last-child{background-color:rgb(225,29,72);; color:#fff; padding:0.5rem 1rem; cursor: pointer;}
+        .content02 > li:first-child{background-color:rgb(0,0,0,0.4);color:#fff; padding:1rem; line-height:2rem;}
+        .content02 > li:last-child{background-color:rgb(225,29,72);; color:#fff; padding:0.5rem 1rem; cursor: pointer;}
 
         .content03{width:30rem; top:65%; left:10%; display:none;}
         .content03 li{float:left;}
@@ -181,8 +181,7 @@ img{vertical-align: bottom;}
 
 
 /**********about me 상세페이지**************/
-.contentAni{transition-delay: 1s; transition: width 0.5s ease, height 0.5s ease;
-    width:60rem;}
+.content01Ani{transition-delay: 1s; transition:  0.5s ease, 0.5s ease; width:60rem;}
 .about-me{display:none; padding:1rem;}
 .about-me > ul{margin-bottom:3rem;}
 .about-me > ul li:not(:first-child){font-size:1rem; letter-spacing: 0.1em;}
@@ -203,6 +202,15 @@ img{vertical-align: bottom;}
 .skill .skill-txt{top:21.5rem; right:124%; border-right:0.2rem solid#b80023;}
 .skill .skill-txt div{ color:#fff;font-family: 'Open Sans', sans-serif;width:20rem; font-size: 1.2rem; padding:0.5rem; margin:0 1rem; background-color:rgb(0,0,0,0.4);}
 .skill .skill-txt p{padding:1rem;}
+
+
+
+/************My design 상세 페이지****************/
+.content02Ani{transition-delay: 1s; transition:  0.5s ease, 0.5s ease; width:50rem;}
+.my-design{display:none; padding:1rem;}
+.my-design > ul{margin-bottom:3rem;}
+
+
 
 /***애니메이션***/
 .arm_ani{animation-name:armAni; transform-origin:top right;
@@ -263,13 +271,4 @@ img{vertical-align: bottom;}
 @media screen and (max-width:992px) {
    .robot{padding-top:30%;}
    .elbow-gears{right:-25%}
-   
-}
-@media screen and (max-width:767px) {
-   .robot{padding-top:30%;}
-   .logo{width:15rem}
-   
-}
-@media screen and (max-width:479px) {
-   .robot{padding-top:50%;}
 }
