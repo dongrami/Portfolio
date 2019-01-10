@@ -42,6 +42,8 @@ function designBack() {
     $(".content02").stop().animate({"left": "-55%","top": "120%"},1000);
 
 };
+$(".button-b").click(function(){
+   alert("준비중 입니다.") });
 $(".ear-left").mouseover(designOver);
 $(".exit-B").click(designBack);
 
@@ -88,13 +90,13 @@ $(".exit-A").click(aboutBack);
     function webOver() {
     $(".arm_bot02").stop().removeClass("arm_ani_back").addClass("arm_ani");
     $(".elbow-gear").stop().removeClass("elbow_ani_back").addClass("elbow_ani");
-    $(".web").stop().animate({"top": "-30%","right": "-80%"}, 500);
+    $(".web").stop().animate({"top": "-30%","right": "-85%"}, 500);
     $(".content03").stop().slideDown(500);
 };
 function webBack() { 
     $(".arm_bot02").stop().removeClass("arm_ani").addClass("arm_ani_back");
     $(".elbow-gear").stop().removeClass("elbow_ani").addClass("elbow_ani_back");
-    $(".web").stop().animate({"top": "-15%","right": "-58%"}, 500);
+    $(".web").stop().animate({"top": "-15%","right": "-70%"}, 500);
     $(".content03").hide();
 };
 $(".arm02").mouseover(webOver);
