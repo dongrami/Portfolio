@@ -227,7 +227,7 @@ $(".exit-W").click(webBack);
     /***********My-design 세부 ***************/
     function content02(){
         $(".content02 li:first-child").stop().addClass("content02Ani");
-        $(".my-design").slideDown();
+        // $(".my-design").slideDown();
         $(".button-b").hide();
         $(".robot").stop().animate({"left": "80%"}, 1000);
         $(".content02").stop().animate({"left": "-330%","top": "-580%"},1000);
